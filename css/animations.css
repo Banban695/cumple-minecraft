@@ -1,0 +1,23 @@
+﻿.fade-up {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all .8s ease;
+}
+
+    .fade-up.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+/*==================================
+OCULTAR CORTINA
+==================================*/
+
+#curtain {
+    transition: opacity .8s ease, visibility .8s ease;
+}
+
+    #curtain.hide {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
