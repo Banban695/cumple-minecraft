@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
         CUENTA REGRESIVA
     ==============================================*/
 
-    const eventDate = new Date("2026-08-08T15:00:00").getTime();
+    const eventDate = new Date("2026-08-09T15:00:00").getTime();
 
     const days = document.getElementById("days");
     const hours = document.getElementById("hours");
